@@ -1,0 +1,28 @@
+.c-box2
+{
+    height: 60vh;
+}
+.about-me h1
+{
+    font-size:2rem ;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 8rem;
+    animation: slideup 1s ease-in-out forwards;
+}
+.about-me p
+{
+    font-size:1.5rem ;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 2rem;
+    animation: slideup 1s ease-in-out forwards;
+}
+@keyframes slideup{
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

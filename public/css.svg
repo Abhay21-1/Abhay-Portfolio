@@ -1,0 +1,7 @@
+<svg role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>CSS3 Logo</title>
+  <path fill="#264DE4" d="M71,460 30,0H481L440,460 255,512"></path>
+  <path fill="#2965F1" d="M256,472L405,431 440,37H256"></path>
+  <path fill="#EBEBEB" d="M256,208H167L160,144H256V80H94L112,272H256V208ZM256,346L255,346 184,326 179,278H112L122,388 256,424Z"></path>
+  <path fill="#FFFFFF" d="M256,208V272H329L322,326 256,346V424L390,388 408,278H256V208ZM256,80V144H416L422,80Z"></path>
+</svg>

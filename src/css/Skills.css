@@ -1,0 +1,68 @@
+.skills-section{
+    min-height: 80vh;
+}
+.skills-section h1
+{
+    font-size:3rem ;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.row-section
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.define-section img
+{
+    width: 8rem;
+    animation: slideup 1s ease-in-out forwards;
+    transition-duration: 1s;
+}
+.define-section p
+{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    animation: slideup 1s ease-in-out forwards;
+}
+.define-section1 img
+{
+    width: 8rem;
+    min-height: 7rem;
+    animation: slideup 1s ease-in-out forwards;
+    transition-duration: 1s;
+}
+.define-section1 p
+{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    animation: slideup 1s ease-in-out forwards;
+}
+
+/* for gap */
+.for-gap
+{
+    margin-top: 5rem;
+}
+
+/* animation in images */
+
+@keyframes slideup {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.define-section1 img:hover
+{
+    width: 9rem;
+}
+.define-section img:hover
+{
+    width: 9rem;
+}

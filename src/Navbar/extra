@@ -1,0 +1,32 @@
+ <div className='Logo'>Portfolio.</div>
+      <ul>
+        <li>
+            <Link to={"/"}>Home</Link>
+        </li>
+        <li>
+            <Link to={"/About"}>About</Link>
+        </li>
+        <li>
+            <Link to={"/Projects"}>Projects</Link>
+        </li>
+        <li>
+            <Link to={"/Skills"}>Skills</Link>
+        </li>
+        <li>
+            <Link to={"/Contact"}>Contact</Link>
+        </li>
+      </ul>
+
+      .heading h1::after{
+        content:"";
+        position: absolute;
+        left:0;
+        bottom:0;
+        height: 1rem;
+        width: 0;
+        background-color: #fff;
+        transition: all ease 1s;
+    }
+    .heading h1:hover::after{
+        width: 100%;
+    }

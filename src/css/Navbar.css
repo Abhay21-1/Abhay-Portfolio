@@ -1,0 +1,11 @@
+.navv h5
+{
+    color:#fff;
+    font-size: 1.4rem;
+    padding-left: 0.8rem;
+    font-weight: 400;
+}
+/* icon color */
+.navbar-toggler-icon{
+    background-color: #fff;
+}

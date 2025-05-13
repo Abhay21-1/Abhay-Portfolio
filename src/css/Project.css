@@ -1,0 +1,38 @@
+.c-project {
+  margin-top: 5rem;
+}
+
+.c-project h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  width: 100%; /* Full width inside column */
+  background-color: transparent;
+  border: solid 1px #fff;
+  margin-bottom: 2rem;
+  animation: slideup 1s ease-in-out forwards;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Subtle hover effect */
+}
+
+@keyframes slideup {
+  from {
+      transform: translateY(100px);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+
+.ratio {
+  height: 15rem;
+  object-fit: cover;
+}
+
