@@ -154,4 +154,24 @@ ul {
   
 
 /*  */
-
+/* resume button */
+.resume{
+  min-width: 9rem;
+  min-height: 3rem ;
+  background-color: transparent;
+  border: solid 1px #fff;
+  border-radius: 0.5rem ;
+  animation: slideup 1s ease-in-out forwards;
+  margin-left: 1.4rem;
+}
+.resume:hover{
+   background-color: rgb(2, 94, 141);
+   border: none;
+   
+}
+.resume a{
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+/* resume button */

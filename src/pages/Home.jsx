@@ -90,8 +90,10 @@ function Home() {
         </div>
 
         {/* logo end */}
+        <button className='resume'><a href='/Abhay-Kaushal.pdf' download >Resume</a></button>
         </div>
       </div>
+      
     </div>
   )
 }
